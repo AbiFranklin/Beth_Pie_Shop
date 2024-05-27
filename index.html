@@ -20,6 +20,7 @@
     </header>
     <main>
       <article>
+        <h1>Welcome to Bethany's Pie Shop</h1>
         <picture>
           <source
             media="(min-width: 1000px)"
@@ -27,6 +28,64 @@
           />
           <img src="images/bethanysmall.jpg" alt="Bethany" />
         </picture>
+        <h2>Our History</h2>
+        <p>
+          In 2013, we opened our first store in Ypsilanti in a cosy little
+          street near the Grand Market. People from all over the world fell in
+          love with the soft cakes, heavenly cheese cakes, spicy apple pies ...
+          The store became a success in no time.
+        </p>
+        <p>
+          In 2015, no less than 100 pies were sold every day and Bethay's Pie
+          Shop moved into a larger building. After receiving many requests, it
+          became clear that our next step was making it possible to order pies
+          from the comfort of your own home and from anywhere in the world. You
+          are now looking at the result of this: our very own online store,
+          making it possible to Bethany's delicious pies!
+        </p>
+        <div id="calculator">
+          <h2>Order Calculator</h2>
+          <table>
+            <thead>
+              <th>Type</th>
+              <th>Price</th>
+              <th>Quantity</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Apple</td>
+                <td>$12.00</td>
+                <td>
+                  <input type="number" id="apple" min="0" placeholder="0" />
+                </td>
+              </tr>
+              <tr>
+                <td>Cherry</td>
+                <td>$15.00</td>
+                <td>
+                  <input type="number" id="cherry" min="0" placeholder="0" />
+                </td>
+              </tr>
+              <tr>
+                <td>Strawberry</td>
+                <td>$18.00</td>
+                <td>
+                  <input
+                    type="number"
+                    id="Strawberry"
+                    min="0"
+                    placeholder="0"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Total:</td>
+                <td id="total-container">$0.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </article>
       <aside>
         <div>
