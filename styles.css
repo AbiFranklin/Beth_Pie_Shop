@@ -95,3 +95,45 @@ footer address p {
 footer address h2 {
   font-size: 1.25em;
 }
+
+.logo-container {
+  display: none;
+}
+
+@media (min-width: 960px) {
+  main {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  article,
+  aside {
+    display: inline;
+    flex-basis: 0;
+    flex-shrink: 1;
+    padding: 0.75rem;
+  }
+
+  article {
+    flex: 4;
+    padding-right: 6em;
+  }
+
+  aside {
+    flex: 1;
+  }
+
+  footer {
+    padding-left: 20%;
+  }
+
+  .logo-container {
+    display: block;
+    text-align: center;
+    padding: 2em;
+  }
+
+  .logo-container img {
+    max-width: 120px;
+  }
+}
